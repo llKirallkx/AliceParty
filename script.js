@@ -12,3 +12,11 @@
 // }
 
 // setInterval(changeBackgroundColor, 1000);
+// Obtém o elemento do iframe
+var iframe = document.getElementById("google-form");
+
+// Aguarda o carregamento do iframe
+iframe.onload = function() {
+    // Define a altura do iframe com base na altura do conteúdo do formulário
+    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+};
