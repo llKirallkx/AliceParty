@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 1s;
+}
+
+.container {
+    text-align: center;
+}
+
+#party-title {
+    font-size: 36px;
+}
+
